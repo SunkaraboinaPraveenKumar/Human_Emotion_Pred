@@ -13,6 +13,7 @@ lb = pickle.load(open('label_encoder.pkl', 'rb'))
 tfidf = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
 
 #custom functions
+nltk.download('stopwords')
 stopwords = nltk.corpus.stopwords.words('english')
 
 
