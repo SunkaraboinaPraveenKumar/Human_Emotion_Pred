@@ -47,7 +47,7 @@ def pred_emotion(text):
 
 #app
 st.title("Six NLP Emotions Detection App")
-st.write(['Joy', 'Fear', 'Love', 'Anger', 'Sadness', 'Surprise'])
+st.write(['Anger', 'Fear', 'Joy', 'Love', 'Sadness', 'Surprise'])
 input_text = st.text_input("Paste Your Text Here")
 
 if st.button("predict"):
